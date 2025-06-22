@@ -7,13 +7,13 @@
 
 // WiFi credentials
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Pikkussssss!!";
-char pass[] = "helloworld123";
+char ssid[] = "iPhone";
+char pass[] = "sumit0007";
 
 // Multiplexer select pins
 const int S0 = D1;  // GPIO5
 const int S1 = D2;  // GPIO4
-const int S2 = D3;  // GPIO0 (✅ no longer conflict with D6)
+const int S2 = D3;  // GPIO0 
 const int S3 = D7;  // GPIO13
 const int SIG = A0; // Analog input from multiplexer
 
